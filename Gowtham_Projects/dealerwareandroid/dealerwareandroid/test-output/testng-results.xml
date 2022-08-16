@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="171027" started-at="2022-06-08T12:14:40 CDT" finished-at="2022-06-08T12:17:31 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="171027" started-at="2022-06-08T12:14:40 CDT" finished-at="2022-06-08T12:17:31 CDT">
+      <class name="com.silvercar.dealerwareandroid.testcases.TC009ContractFuturePickUpDropOffDates">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.silvercar.dealerwareandroid.testcases.TC009ContractFuturePickUpDropOffDates@43a0cee9]" name="reportSetup" is-config="true" duration-ms="115" started-at="2022-06-08T12:14:40 CDT" finished-at="2022-06-08T12:14:40 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.silvercar.dealerwareandroid.testcases.TC009ContractFuturePickUpDropOffDates@43a0cee9]" name="setUp" is-config="true" duration-ms="17857" started-at="2022-06-08T12:14:40 CDT" finished-at="2022-06-08T12:14:58 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contractFuturePickUpDropOffDatesStartReservation()[pri:0, instance:com.silvercar.dealerwareandroid.testcases.TC009ContractFuturePickUpDropOffDates@43a0cee9]" name="contractFuturePickUpDropOffDatesStartReservation" duration-ms="91996" started-at="2022-06-08T12:14:58 CDT" finished-at="2022-06-08T12:16:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractFuturePickUpDropOffDatesStartReservation -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.silvercar.dealerwareandroid.testcases.TC009ContractFuturePickUpDropOffDates@43a0cee9]" name="afterTest" is-config="true" duration-ms="61150" started-at="2022-06-08T12:16:30 CDT" finished-at="2022-06-08T12:17:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:com.silvercar.dealerwareandroid.testcases.TC009ContractFuturePickUpDropOffDates@43a0cee9]" name="reportTeardown" is-config="true" duration-ms="381" started-at="2022-06-08T12:17:36 CDT" finished-at="2022-06-08T12:17:36 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- com.silvercar.dealerwareandroid.testcases.TC009ContractFuturePickUpDropOffDates -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

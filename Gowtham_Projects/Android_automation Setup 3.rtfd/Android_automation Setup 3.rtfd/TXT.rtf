@@ -1,0 +1,87 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 HelveticaNeue-BoldItalic;
+\f3\fnil\fcharset0 HelveticaNeue-Italic;}
+{\colortbl;\red255\green255\blue255;\red220\green161\blue13;}
+{\*\expandedcolortbl;;\cssrgb\c89412\c68627\c3922;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat4\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\partightenfactor0
+
+\f0\b\fs40 \cf0 Install Brew\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f1\b0\fs26 \cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 Open terminal  >> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 It will install Brew on Mac\
+({\field{\*\fldinst{HYPERLINK "https://brew.sh"}}{\fldrslt \cf2 https://brew.sh}})\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 {{\NeXTGraphic Screenshot 2022-04-15 at 10.50.21 PM.png \width25300 \height14220 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 {{\NeXTGraphic Screenshot 2022-04-15 at 10.52.09 PM.png \width11420 \height7320 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	0.	}
+\f0\b Install Java 
+\f1\b0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 To install Jave open terminal \'93
+\f0\b brew install openjdk@8
+\f1\b0 \'94\
+Follow the Instruction in Below link \'932. Homebrew install Java 8 on macOS\'94\
+\pard\pardeftab560\slleading20\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://mkyong.com/java/how-to-install-java-on-mac-osx/#homebrew-install-java-8-on-macos"}}{\fldrslt 
+\f2\i\b \cf2 https://mkyong.com/java/how-to-install-java-on-mac-osx/#homebrew-install-java-8-on-macos}}
+\f2\i\b \
+\
+Note : 
+\f1\i0\b0 export JAVA_HOME="
+\f3\i /usr/local/opt/openjdk@8
+\f1\i0 "\
+export PATH=$JAVA_HOME/bin:$PATH\
+\
+echo 'export JAVA_HOME=\'93/usr/local/opt/openjdk@8"  >> ~/.zshrc\
+\
+3.Instal carthage.\
+\'93brew install carthage\'94\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	0.	}Install Appium \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 npm install -g appium\
+\
+5 . Install android Studio\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 {{\NeXTGraphic Screenshot 2022-04-15 at 11.39.11 PM.png \width19660 \height14500 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+echo 'export PATH="/Users/opsawayitservices/Library/Android/sdk/platforms:$PATH"' >> ~/.zshrc\
+echo 'export PATH="/Users/opsawayitservices/Library/Android/sdk/platform-tools:$PATH"' >> ~/.zshrc\
+\
+\
+echo 'export ANDROID_HOME=\'93/Users/opsawayitservices/Library/Android/sdk\'94\'92  >> ~/.zshrc\
+\
+\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 6.Install Maven \
+\
+\
+echo 'export PATH="/usr/local/Cellar/maven/3.8.5/libexec/bin:$PATH"' >> ~/.zshrc\
+}
