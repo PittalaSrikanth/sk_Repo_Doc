@@ -26,9 +26,9 @@ public class ChromeBrowserLauncherExample {
 	    desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
 	    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 	    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
-	    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "RZ8R819BV7J");
+//	    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "RZ8R819BV7J");
 //		OR
-//      desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android"); // for real devices only
+      desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android"); // for real devices only
 	    desiredCapabilities.setCapability(AndroidMobileCapabilityType.CHROMEDRIVER_EXECUTABLE, "C:\\Users\\spittala\\Downloads\\chrome104\\chromedriver.exe");
 	    desiredCapabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 	    
