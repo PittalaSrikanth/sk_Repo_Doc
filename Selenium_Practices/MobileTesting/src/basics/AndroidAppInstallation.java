@@ -26,9 +26,9 @@ public class AndroidAppInstallation {
 
 	    desiredCapabilities.setCapability("automationName", "Appium");
 	    desiredCapabilities.setCapability("platformName", "Android");
-	    desiredCapabilities.setCapability("platformVersion", "8.0");
-	    desiredCapabilities.setCapability("deviceName", "emulator-5554");
-	    desiredCapabilities.setCapability("app", "C:\\Users\\spittala\\Downloads\\ApiDemos-debug.apk");
+	    desiredCapabilities.setCapability("platformVersion", "12");
+	    desiredCapabilities.setCapability("deviceName", "192.168.0.100:5555");
+//	    desiredCapabilities.setCapability("app", "C:\\Users\\spittala\\Downloads\\ApiDemos-debug.apk");
 		
 		
 		

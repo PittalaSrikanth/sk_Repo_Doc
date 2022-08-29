@@ -38,8 +38,8 @@ public class GetAppActivityAndAppPackage {
 		DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 	    desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
 	    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-	    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0");
-	    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
+	    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
+	    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "192.168.0.100:5555");
 	    desiredCapabilities.setCapability("app", "C:\\Users\\spittala\\Downloads\\ApiDemos-debug.apk");
 
 	    URL remoteUrl = new URL("http://localhost:4723/wd/hub");
@@ -47,8 +47,8 @@ public class GetAppActivityAndAppPackage {
 	    AndroidDriver<WebElement> driver = new AndroidDriver<WebElement>(remoteUrl, desiredCapabilities);
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	    
-	    System.out.println(driver.currentActivity());
-	    System.out.println(driver.getCurrentPackage());
+	  System.out.println(driver.getCurrentPackage());
+	   System.out.println(driver.currentActivity());
 
 	    
 	    Thread.sleep(3000);
