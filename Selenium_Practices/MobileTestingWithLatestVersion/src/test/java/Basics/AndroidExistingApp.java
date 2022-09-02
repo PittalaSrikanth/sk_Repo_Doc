@@ -22,6 +22,9 @@ public class AndroidExistingApp
 		AndroidDriver driver = new AndroidDriver(url,ops);
 		Activity act = new Activity("io.appium.android.apis", "io.appium.android.apis.view.DragAndDropDemo");
 		driver.startActivity(act);
+		
+		
+		
 		driver.quit();
 		
 	}

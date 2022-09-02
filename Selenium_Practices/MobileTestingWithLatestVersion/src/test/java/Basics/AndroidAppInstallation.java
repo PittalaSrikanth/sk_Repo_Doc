@@ -11,16 +11,26 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class AndroidAppInstallation 
 {
-	public static void main(String[] args) throws MalformedURLException 
+	public static void main(String[] args) throws MalformedURLException, InterruptedException 
 	{
 		UiAutomator2Options ops = new UiAutomator2Options();
-		ops.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
-		ops.setCapability(MobileCapabilityType.DEVICE_NAME, "10.51.33.117:5555");
+		ops.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0");
+		ops.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
 		ops.setCapability(MobileCapabilityType.APP, "C:\\Users\\spittala\\Downloads\\ApiDemos-debug.apk");
 		
 		URL url = new URL("http://localhost:4723/wd/hub");
 		AndroidDriver driver = new AndroidDriver(url,ops);
-		driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"Views\")")).click();
+		
+		Thread.sleep(5000);
+		
+		driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Views']")).click();
+		driver.findElement(AppiumBy.accessibilityId("Gallery")).click();
+		driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='1. Photos']")).click();
+		driver.findElement(AppiumBy.xpath("//android.widget.ImageView[1]")).click();
+		
+		driver.quit();
+		
+		
 		
 	}
 }
