@@ -24,6 +24,8 @@ public class Rough
 		driver.startActivity(act);
 		
 		
+		
+		
 		driver.findElement(AppiumBy.accessibilityId("Access'ibility")).click();
 		driver.navigate().back();
 		driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"Accessibility\"]")).click();
